@@ -121,10 +121,12 @@ end
 ----------- / Lockpicking
 
 QBCore.Functions.CreateUseableItem('lockpick', function(source)
+    TriggerClientEvent('MK_VehicleKeys:Client:UseLockpick', source, 'lockpick', {Advanced = false})
     TriggerClientEvent('lockpicks:UseLockpick', source, false)
 end)
 
 QBCore.Functions.CreateUseableItem('advancedlockpick', function(source)
+    TriggerClientEvent('MK_VehicleKeys:Client:UseLockpick', source, 'advancedlockpick', {Advanced = true})
     TriggerClientEvent('lockpicks:UseLockpick', source, true)
 end)
 
