@@ -282,6 +282,7 @@ Config.CarWash = {
         [2] = { coords = vector3(25.2, -1391.98, 28.91), length = 6.6, width = 8.2, heading = 0 },     -- South Los Santos Innocence Boulevard
         [3] = { coords = vector3(-74.27, 6427.72, 31.02), length = 9.4, width = 8, heading = 315 },    -- Paleto Bay Boulevard
         [4] = { coords = vector3(1362.69, 3591.81, 34.5), length = 6.4, width = 8, heading = 21 },     -- Sandy Shores
-        [5] = { coords = vector3(-699.84, -932.68, 18.59), length = 11.8, width = 5.2, heading = 0 }   -- Little Seoul Gas Station
+        [5] = { coords = vector3(-699.84, -932.68, 18.59), length = 11.8, width = 5.2, heading = 0 },   -- Little Seoul Gas Station
+        [6] = { coords = vector4(-515.82, 7581.6, 6.36, 137.39), length = 11.8, width = 5.2, heading = 0 }   -- Marina Bay Pearl and Fuel
     }
 }
